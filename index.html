@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shackoringa</title>
+
+    <style>
+
+ body {
+
+background-color: yellowgreen;
+text-align: center;
+margin-top: 200px;
+ }
+
+ h1 {
+
+color: darkred;
+font-size: 145px;
+
+
+ }
+ button {
+
+font-size: 40px;
+
+
+ }
+
+
+
+    </style>
+</head>
+<body>
+<img src="transferir (1).jpeg" alt="shaco comeu meu cu">
+
+    <section>
+  <h1>0</h1>
+  <button onclick="adicionar()">mais</button>
+
+  <button onclick="zerar()">Zerar</button>
+
+   <button onclick="diminuir()">menos</button>
+      
+
+    </section>
+  
+    <script>
+    
+    let numero = 0
+
+    function adicionar() {
+
+numero ++;
+document.querySelector ('h1') . textContent = numero
+    }
+
+    function diminuir() {
+
+numero --;
+document.querySelector ('h1') . textContent = numero
+    }
+
+    function zerar() {
+
+numero = 0
+document.querySelector ('h1') . textContent = numero
+    }
+
+
+
+
+
+    </script>
+</body>
+</html>
